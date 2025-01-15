@@ -1,3 +1,64 @@
 body {
-  background-color: aqua;
+  --color-orange: #EA731F;
+  --color-grey: #5E6B75;
+}
+
+section.login {
+
+}
+
+.login-logo {
+
+}
+
+.login-logo a {
+
+}
+
+.login-logo img {
+
+}
+
+.login-form {
+
+}
+
+.login-form h2 {
+
+}
+
+form {
+
+}
+
+form input[type="text"] {
+
+}
+
+form input[type="checkbox"] {
+
+}
+
+form label {
+
+}
+
+form a {
+
+}
+
+form input[type="submit"] {
+
+}
+
+section.login .indicator {
+
+}
+
+section.login .indicator svg {
+
+}
+
+section.login .indicator span {
+
 }
