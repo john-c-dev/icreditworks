@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
   </head>
 <body>
   <section class="login">
     <div class="login-logo">
       <a href="https://www.icreditworks.com/" target="_blank">
-        <img src="missing.png" alt="" >
+        <img src="/images/logo-lockup.png" alt="" >
       </a>
     </div>
     <div class="login-form">
       <h2>User Login</h2>
       <form>
-        <input placeholder="Business Email ID"/>
-        <input placeholder="Password" type="password"/>
-        <input type="checkbox" id="remember-me" name="remember-me" checked>
-        <label for="remember-me">Remember me</label>
+        <input type="text" placeholder="Business Email ID"/>
+        <div class="input-group">
+          <input type="password" placeholder="Password" value=""/>
+          <span class="toggle-icon" onclick=""></span>
+        </div>
+        <div class="checkbox-group">
+          <div class="checkbox-container">
+            <input type="checkbox" checked="checked" id="remember-me" name="remember-me"> 
+          </div>
+          <label for="remember-me">Remember me</label>
+        </div>
         <a href="missing" target="_blank">Don’t remember your password?</a>
         <input type="submit" value="Login">
       </form>
