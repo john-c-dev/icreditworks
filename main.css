@@ -14,8 +14,13 @@ body {
 
 @media (min-width: 768px) {
   main {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: start;
     background-image: url(/images/background-image.jpg);
     background-size: cover;
+    overflow: hidden;
   }
 }
 
@@ -33,7 +38,9 @@ section.login {
 
 @media (min-width: 768px) {
   section.login {
+    margin: unset;
     max-width: 375px;
+    background-color: var(--color-white);
   }
 }
 
@@ -41,8 +48,8 @@ section.login {
   section.login {
     max-width: unset;
     width: 484px;
+    margin-left: 140px;
     border-radius: 6px;
-    background-color: var(--color-white);
   }
 }
 
@@ -319,37 +326,153 @@ section.login .indicator span {
 }
 
 section.headline {
+  display: none;
+  flex-shrink: 0;
+}
 
+@media (min-width: 768px) {
+  section.headline {
+    display: block;
+  }
+}
+
+@media (min-width: 1920px) {
+  section.headline {
+    width: 414px;
+    margin-left: 70px;
+    padding-bottom: 60px;
+  }
 }
 
 section.headline h1 {
+  font-family: var(--font-host-grotesk);
+  font-weight: 600;
+  color: var(--color-white);
+}
 
+@media (min-width: 1920px) {
+  section.headline h1 {
+    margin-bottom: 0;
+    font-size: 58px;
+    line-height: 58px;
+  }
 }
 
 section.headline p {
+  font-family: var(--font-host-grotesk);
+  color: var(--color-white);
+  font-weight: 100;
+}
 
+@media (min-width: 1920px) {
+  section.headline p {
+    margin-top: 16px;
+    font-size: 20px;
+    line-height: 25px;
+    width: 415px;
+  }
 }
 
 section.pill-and-screens {
+  display: none;
+  position: relative;
+}
 
+@media (min-width: 768px) {
+  section.pill-and-screens {
+    display: block;
+    position: relative;
+  }
+}
+
+@media (min-width: 1920px) {
+  section.pill-and-screens {    
+    margin-left: 70px;
+  }
+}
+
+@media (min-width: 1920px) {
+  section.pill-and-screens {    
+    width: 776px;
+    min-height: 1077px;
+  }
 }
 
 section.pill-and-screens .pill {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 552px;
+  height: 552px;
+  background-color: var(--color-white);
+  border-radius: 276px;
+}
 
+@media (min-width: 1920px) {
+  section.pill-and-screens .pill {
+    top: -164px;
+    left: 92px;
+    width: 552px;
+    height: 552px;
+    border-radius: 276px;
+  }
 }
 
 section.pill-and-screens .pill h2 {
-
+  margin: 83px 0 0;
+  font-family: var(--font-host-grotesk);
+  font-weight: 100;
+  font-size: 42px;
+  line-height: 42px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 section.pill-and-screens .pill img {
 
 }
 
-section.pill-and-screens .screens-lockup .desktop-screen-image {
+@media (min-width: 1920px) {
+  section.pill-and-screens .pill img {
+    margin-top: 12px;
+    width: 416px;
+  }
+}
+
+section.pill-and-screens .screens-lockup {
+  position: absolute;
+}
+
+section.pill-and-screens .screens-lockup {
+  top: 320px;
+}
+
+section.pill-and-screens .screens-lockup img {
 
 }
 
-section.pill-and-screens .screens-lockup .mobile-screen-image  {
+@media (min-width: 1920px) {
+  section.pill-and-screens .screens-lockup img {
+    width: 925px;
+  }
+}
 
+button.help-button {
+  position: absolute;
+  bottom: 25px;
+  right: 25px; 
+  width: 72px;
+  height: 72px;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+button.help-button img {
+  width: 72px;
+  height: 72px;
 }
