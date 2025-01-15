@@ -22,6 +22,7 @@ body {
 @media (min-width: 1920px) {
   main {
     max-width: 1920px;
+    min-height: 1077px;
     margin: auto;
   }
 }
@@ -38,7 +39,8 @@ section.login {
 
 @media (min-width: 1920px) {
   section.login {
-    max-width: 484px;
+    max-width: unset;
+    width: 484px;
     border-radius: 6px;
     background-color: var(--color-white);
   }
@@ -50,6 +52,12 @@ section.login {
   text-align: center;
 }
 
+@media (min-width: 1920px) {
+  .login-logo {
+    padding: 16px 0 13px;
+  }
+}
+
 .login-logo a {
 
 }
@@ -57,6 +65,12 @@ section.login {
 .login-logo img {
   width: 167px;
   margin: auto;
+}
+
+@media (min-width: 1920px) {
+  .login-logo img {
+    width: 202px;
+  }
 }
 
 .login-form {
@@ -76,6 +90,14 @@ section.login {
   text-transform: uppercase;
 }
 
+@media (min-width: 1920px) {
+  .login-form h2 {
+    padding-top: 10px;
+    font-size: 24px;
+    line-height: 37.5px;
+  }
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -83,6 +105,12 @@ form {
   justify-content: center;
   gap: 18px;
   margin-top: 52px;
+}
+
+@media (min-width: 1920px) {
+  form {
+    gap: 15px;
+  }
 }
 
 form input[type="text"],
@@ -102,6 +130,17 @@ form input[type="password"] {
   text-decoration-skip-ink: none;
 }
 
+@media (min-width: 1920px) {
+  form input[type="text"],
+  form input[type="password"] {
+    width: 400px;
+    height: 68px;
+    padding-left: 12px;
+    font-size: 24px;
+    line-height: 27px;
+  }
+}
+
 form .input-group {
   position: relative;
 }
@@ -114,11 +153,25 @@ form .toggle-icon {
   width: 19px;
 }
 
+@media (min-width: 1920px) {
+  form .toggle-icon {
+    top: 28px;
+    right: 13px;
+    width: 27px;
+  }
+}
+
 form .checkbox-group {
- display: flex; 
- justify-content: start;
- align-items: center;
- width: 323px;
+  display: flex; 
+  justify-content: start;
+  align-items: center;
+  width: 323px;
+}
+
+@media (min-width: 1920px) {
+  form .checkbox-group {
+    width: 418px;
+  }
 }
 
 .checkbox-container {
@@ -127,6 +180,12 @@ form .checkbox-group {
   width: 24px;
   border: 1px solid var(--color-grey-light);
   border-radius: 3px;
+}
+
+@media (min-width: 768px) {
+  .checkbox-container {
+    border-radius: 0;
+  }
 }
 
 input[type="checkbox"] {
@@ -159,7 +218,13 @@ form label {
   line-height: 18px;
   font-weight: 300;
   color: var(--color-black-off-black);
+}
 
+@media (min-width: 1920px) {
+  form label {
+    font-size: 18px;
+    line-height: 20px;
+  }
 }
 
 form a {
@@ -171,7 +236,13 @@ form a {
   color: var(--color-grey-purple);
   text-decoration: none;
   cursor: pointer;
+}
 
+@media (min-width: 1920px) {
+  form a {
+    font-size: 21px;
+    line-height: 24px;
+  }
 }
 
 form a:hover,
@@ -194,6 +265,15 @@ form input[type="submit"] {
   background-color: var(--color-orange);
 }
 
+@media (min-width: 1920px) {
+  form input[type="submit"] {
+    height: 60px;
+    padding: 0 68px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
 section.login .indicator {
   display: flex;
   gap: 9px;
@@ -205,8 +285,22 @@ section.login .indicator {
   background-color: var(--color-grey);
 }
 
+@media (min-width: 1920px) {
+  section.login .indicator {
+    gap: 9px;
+    height: 47px;
+    margin-top: 41px;
+  }
+}
+
 section.login .indicator svg {
-  
+  width: 14px;
+}
+
+@media (min-width: 1920px) {
+  section.login .indicator svg {
+    width: 20px;
+  }
 }
 
 section.login .indicator span {
@@ -215,4 +309,47 @@ section.login .indicator span {
   line-height: 18px;
   font-weight: 100;
   color: var(--color-white);
+}
+
+@media (min-width: 1920px) {
+  section.login .indicator span {
+    font-size: 20px;
+    line-height: 27px;
+  }
+}
+
+section.headline {
+
+}
+
+section.headline h1 {
+
+}
+
+section.headline p {
+
+}
+
+section.pill-and-screens {
+
+}
+
+section.pill-and-screens .pill {
+
+}
+
+section.pill-and-screens .pill h2 {
+
+}
+
+section.pill-and-screens .pill img {
+
+}
+
+section.pill-and-screens .screens-lockup .desktop-screen-image {
+
+}
+
+section.pill-and-screens .screens-lockup .mobile-screen-image  {
+
 }
