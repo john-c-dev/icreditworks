@@ -8,10 +8,25 @@ body {
   --color-orange: #EA731F;
   --color-white: #ffffff;
   --font-host-grotesk: "Host Grotesk", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  main {
+    background-image: url(/images/background-image.jpg);
+    background-size: cover;
+  }
+}
+
+@media (min-width: 1920px) {
+  main {
+    max-width: 1920px;
+    margin: auto;
+  }
 }
 
 section.login {
- max-width: 375px;
  margin: auto;
 }
 
@@ -21,11 +36,18 @@ section.login {
   }
 }
 
+@media (min-width: 1920px) {
+  section.login {
+    max-width: 484px;
+    border-radius: 6px;
+    background-color: var(--color-white);
+  }
+}
+
 .login-logo {
   border-bottom: 4px solid var(--color-orange);
-  padding: 8px 0 14px;
+  padding: 16px 0 14px;
   text-align: center;
-  
 }
 
 .login-logo a {
