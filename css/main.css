@@ -75,10 +75,6 @@ section.login {
   }
 }
 
-.login-logo a {
-
-}
-
 .login-logo img {
   width: 167px;
   margin: auto;
@@ -524,16 +520,13 @@ section.pill-and-screens .pill {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 552px;
-  height: 552px;
   background-color: var(--color-white);
-  border-radius: 276px;
 }
 
 @media (min-width: 768px) {
   section.pill-and-screens .pill {
     top: -8.54vw;
-    left: 4.79vw;
+    left: 3.91vw;
     width: 28.75vw;
     height: 28.75vw;
     border-radius: 14.38vw;
@@ -543,7 +536,7 @@ section.pill-and-screens .pill {
 @media (min-width: 1920px) {
   section.pill-and-screens .pill {
     top: -164px;
-    left: 92px;
+    left: 75px;
     width: 552px;
     height: 552px;
     border-radius: 276px;
