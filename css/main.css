@@ -21,7 +21,7 @@ body {
     max-width: 100vw;
     min-height: 56.09vw;
     margin: auto;
-    background-image: url(/images/background-image.jpg);
+    background-image: url(/icreditworks/images/background-image.jpg);
     background-size: cover;
     overflow: hidden;
   }
@@ -189,7 +189,7 @@ form .input-group {
 }
 
 form .toggle-icon {
-  content: url(images/ico-eye-open.svg);
+  content: url(/icreditworks/images/ico-eye-open.svg);
   position: absolute;
   top: 24px;
   right: 8px;
@@ -214,7 +214,7 @@ form .toggle-icon {
 }
 
 form .toggle-icon.hide-icon {
-  content: url(images/ico-eye-hide.svg);
+  content: url(/icreditworks/images/ico-eye-hide.svg);
 }
 
 form .checkbox-group {
@@ -271,7 +271,7 @@ input[type="checkbox"] {
 }
 
 .checkbox-container:has(input[type="checkbox"]:checked):after {
-  content: url(/images/check.svg);
+  content: url(/icreditworks/images/check.svg);
 }
 
 form label {
