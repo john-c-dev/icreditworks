@@ -389,18 +389,18 @@ section.login .indicator {
   }
 }
 
-section.login .indicator svg {
+section.login .indicator img {
   width: 14px;
 }
 
 @media (min-width: 768px) {
-  section.login .indicator svg {
+  section.login .indicator img {
     width: 1.04vw;
   }
 }
 
 @media (min-width: 1920px) {
-  section.login .indicator svg {
+  section.login .indicator img {
     width: 20px;
   }
 }
