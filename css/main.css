@@ -3,6 +3,7 @@ body {
   --color-grey: #5E6B75;
   --color-grey-dark: #555555;
   --color-grey-extra-dark: #333333;
+  --color-grey-super-dark: #3D3D3D;
   --color-grey-light: #CCCCCC;
   --color-grey-purple: #486082;
   --color-orange: #EA731F;
@@ -99,7 +100,7 @@ section.login {
   padding-top: 18px;
   font-family: var(--font-host-grotesk);
   font-size: 20.8px;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 32.5px;
   color: var(--color-grey-extra-dark);
   text-align: center;
@@ -553,6 +554,7 @@ section.pill-and-screens .pill h2 {
   font-family: var(--font-host-grotesk);
   font-weight: 100;
   text-transform: uppercase;
+  color: var(--color-grey-super-dark);
 }
 
 @media (min-width: 768px) {
